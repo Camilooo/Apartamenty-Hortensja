@@ -11,5 +11,5 @@ Disallow: /*_escaped_fragment_*
 Disallow:
 
 
-Sitemap: http://project11881387.tilda.ws/sitemap.xml
-Host: project11881387.tilda.ws
+Sitemap: https://apart-hortensja.pl/sitemap.xml
+Host: apart-hortensja.pl
