@@ -80,7 +80,14 @@
                 data-bgcolor-rgba-afterscroll="rgba(0,0,0,0.50)" data-menu-items-align="left" data-menu="yes">
                 <div class="t228__maincontainer t228__c12collumns" style="height:65px;">
                     <div class="t228__padding40px"></div>
-                    <div class="t228__leftside"> </div>
+                    <div class="t228__leftside">
+                        <div class="t228__leftcontainer">
+                            <a href="/" style="color:inherit; text-decoration:none;">
+                                <img src="images/hortensja_logo.png" class="t228__imglogo"
+                                    style="max-height:60px; width:auto; display:block;" alt="Apartamenty Hortensja">
+                            </a>
+                        </div>
+                    </div>
                     <div class="t228__centerside t228__menualign_left">
                         <nav class="t228__centercontainer">
                             <ul role="list" class="t228__list t-menu__list">
@@ -110,8 +117,21 @@
             <style>
                 @media screen and (max-width:980px) {
                     #rec853002449 .t228 {
-                        position: static;
+                        position: fixed;
+                        background-color: rgba(0, 0, 0, 0.6) !important;
+                        backdrop-filter: blur(10px);
                     }
+                }
+
+                #nav853002449 {
+                    backdrop-filter: blur(15px);
+                    -webkit-backdrop-filter: blur(15px);
+                    transition: background-color 0.3s ease;
+                }
+
+                #nav853002449.t228__bgblue,
+                #nav853002449.t228__bgopaque {
+                    background-color: rgba(0, 0, 0, 0.4) !important;
                 }
             </style>
             <script>window.addEventListener('resize', t_throttle(function () { t_onFuncLoad('t_menu__setBGcolor', function () { t_menu__setBGcolor('853002449', '.t228'); }); })); t_onReady(function () { t_onFuncLoad('t_menu__highlightActiveLinks', function () { t_menu__highlightActiveLinks('.t228__list_item a'); }); t_onFuncLoad('t_menu__findAnchorLinks', function () { t_menu__findAnchorLinks('853002449', '.t228__list_item a'); }); t_onFuncLoad('t228__init', function () { t228__init('853002449'); }); t_onFuncLoad('t_menu__setBGcolor', function () { t_menu__setBGcolor('853002449', '.t228'); }); t_onFuncLoad('t_menu__interactFromKeyboard', function () { t_menu__interactFromKeyboard('853002449'); }); t_onFuncLoad('t_menu__changeBgOpacity', function () { t_menu__changeBgOpacity('853002449', '.t228'); window.addEventListener('scroll', t_throttle(function () { t_menu__changeBgOpacity('853002449', '.t228'); })); }); });</script>
