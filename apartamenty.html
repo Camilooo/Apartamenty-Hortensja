@@ -1,16 +1,22 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="pl">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apartamenty &#x2013; Apartamenty Hortensja</title>
-    <meta name="description" content="Nasze apartamenty nad jeziorem w Nowych Gutach." />
+    <title>Apartamenty w Nowych Gutach – Zobacz nasze wnętrza | Hortensja</title>
+    <meta name="description"
+        content="Oferujemy 2 nowoczesne apartamenty o wysokim standardzie w miejscowości Nowe Guty. Sprawdź wyposażenie i zarezerwuj swój pobyt na Mazurach." />
     <link rel="canonical" href="https://apart-hortensja.pl/apartamenty.html">
     <link rel="shortcut icon" href="images/hortensja_logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/tilda-grid-3.0.min.css" type="text/css" media="all"
         onerror="this.loaderr='y';" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Apartamenty w Nowych Gutach – Hortensja" />
+    <meta name="twitter:description"
+        content="Zobacz nasze komfortowe apartamenty nad samym jeziorem Śniardwy. Nowoczesne wnętrza i mazurski spokój." />
+    <meta name="twitter:image" content="https://apart-hortensja.pl/images/Main_image.png" />
     <link rel="stylesheet" href="./css/tilda-blocks-page61595659.min.css?t=1737238781" type="text/css" media="all"
         onerror="this.loaderr='y';" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -242,6 +248,64 @@
                     color: #ffffff;
                     font-weight: 500;
                 }
+
+                /* Mobile Optimization for Apartment Sections */
+                @media screen and (max-width: 960px) {
+                    .t799 .t-container {
+                        display: flex !important;
+                        flex-direction: column !important;
+                        padding-left: 20px !important;
+                        padding-right: 20px !important;
+                    }
+
+                    /* Ensure Title is always on TOP for all apartments on mobile */
+                    #rec853002460 .t-container,
+                    #rec853002462 .t-container {
+                        flex-direction: column-reverse !important;
+                    }
+
+                    .t799 .t-col {
+                        width: 100% !important;
+                        max-width: 100% !important;
+                        margin-left: 0 !important;
+                        margin-right: 0 !important;
+                        margin-bottom: 20px !important;
+                        text-align: center !important;
+                    }
+
+                    .t799__title {
+                        text-align: center !important;
+                        font-size: 28px !important;
+                        line-height: 1.2 !important;
+                        margin: 20px 0 !important;
+                        font-weight: 600 !important;
+                    }
+
+                    .t799 .t-slds {
+                        margin-bottom: 40px !important;
+                    }
+
+                    /* Fix spacing between the blocks */
+                    .t-rec {
+                        padding-bottom: 60px !important;
+                    }
+                }
+
+                .t799__descr {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 18px;
+                    line-height: 1.6;
+                    color: #555;
+                    margin-top: 20px;
+                    font-weight: 400;
+                }
+
+                @media screen and (max-width: 960px) {
+                    .t799__descr {
+                        font-size: 16px !important;
+                        padding: 0 10px !important;
+                    }
+                }
             </style>
             <script>(function () { var btn = document.getElementById('nav-dropdown-btn'); var menu = document.getElementById('nav-dropdown-menu'); if (!btn || !menu) return; btn.addEventListener('click', function () { var isOpen = menu.style.display !== 'none'; menu.style.display = isOpen ? 'none' : 'block'; btn.classList.toggle('open', !isOpen); }); menu.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', function () { menu.style.display = 'none'; btn.classList.remove('open'); }); }); })();</script>
             <script>window.addEventListener('resize', t_throttle(function () { t_onFuncLoad('t_menu__setBGcolor', function () { t_menu__setBGcolor('853002449', '.t228'); }); })); t_onReady(function () { t_onFuncLoad('t_menu__highlightActiveLinks', function () { t_menu__highlightActiveLinks('.t228__list_item a'); }); t_onFuncLoad('t_menu__changeBgOpacity', function () { t_menu__changeBgOpacity('853002449', '.t228'); window.addEventListener('scroll', t_throttle(function () { t_menu__changeBgOpacity('853002449', '.t228'); })); }); });</script>
@@ -250,7 +314,9 @@
 
         <!-- ===== HERO ===== -->
         <div class="page-hero">
-            <h1>Apartamenty</h1>
+            <h1
+                style="font-size: clamp(2.4rem, 6vw, 5rem); font-weight: 700; letter-spacing: .05em; margin: 0; color: #1a1a1a;">
+                Apartamenty nad Jeziorem</h1>
         </div>
         <!-- ===== /HERO ===== -->
         <div id="rec853002458" class="r t-rec" style=" " data-record-type="215"> <a name="apartments"
@@ -423,6 +489,12 @@
                     <div class="t-col t-col_5 ">
                         <div class="t799__title t-heading t-heading_sm" field="title"><strong>Apartament 1</strong>
                         </div>
+                        <div class="t799__descr" field="descr">
+                            Przestronny i jasny apartament o wysokim standardzie wykończenia. Wnętrze zostało
+                            zaprojektowane z myślą o komforcie i relaksie, łącząc nowoczesne udogodnienia z przytulnym
+                            stylem. Wyposażony w aneks kuchenny, część wypoczynkową oraz nowoczesną łazienkę.
+                            Idealny wybór dla rodzin szukających spokoju nad samym jeziorem Śniardwy.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -446,7 +518,13 @@
             <div class="t799">
                 <div class="t-container">
                     <div class="t-col t-col_5 t-prefix_1 t799-col_top">
-                        <div class="t799__title t-heading t-heading_sm" field="title">Apartament 2<br /><br /></div>
+                        <div class="t799__title t-heading t-heading_sm" field="title">Apartament 2</div>
+                        <div class="t799__descr" field="descr">
+                            Nowoczesny apartament zlokalizowany na parterze, oferujący bezpośredni dostęp do mazurskiej
+                            natury. Przemyślany układ pomieszczeń gwarantuje swobodę i wygodę pobytu. Duże przeszklenia
+                            wpuszczają mnóstwo naturalnego światła, a stylowe dodatki tworzą wyjątkowy klimat
+                            sprzyjający wypoczynkowi o każdej porze roku.
+                        </div>
                     </div>
                     <div class="t-col t-col_5 ">
                         <div class="t-slds" style="visibility: hidden;">
@@ -757,6 +835,12 @@
                     </div>
                     <div class="t-col t-col_5 ">
                         <div class="t799__title t-heading t-heading_sm" field="title">Apartament 3</div>
+                        <div class="t799__descr" field="descr">
+                            Nasz najbardziej kameralny apartament, idealny dla par lub osób szukających wyciszenia.
+                            Wnętrze charakteryzuje się dbałością o detale i wysokiej klasy wyposażeniem. Komfortowe
+                            łóżka, w pełni wyposażona kuchnia oraz bliskość jeziora sprawiają, że pobyt tutaj to czysta
+                            przyjemność i regeneracja sił w sercu Mazur.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -794,6 +878,26 @@
         <!-- ===== /FOOTER ===== -->
 
     </div>
+    <div id="scroll-to-top"
+        style="position:fixed; bottom:30px; right:30px; width:50px; height:50px; background:#c471ed; color:#fff; border-radius:50%; display:none; align-items:center; justify-content:center; cursor:pointer; z-index:9999; box-shadow:0 4px 15px rgba(0,0,0,0.2); transition: all 0.3s ease;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </div>
+    <script>
+        window.addEventListener('scroll', function () {
+            var btn = document.getElementById('scroll-to-top');
+            if (window.pageYOffset > 300) {
+                btn.style.display = 'flex';
+            } else {
+                btn.style.display = 'none';
+            }
+        });
+        document.getElementById('scroll-to-top').addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
 </body>
 
 </html>

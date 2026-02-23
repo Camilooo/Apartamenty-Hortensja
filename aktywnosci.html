@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aktywno&#347;ci – Apartamenty Hortensja</title>
+    <title>Atrakcje Nowe Guty i okolice – Aktywny wypoczynek na Mazurach | Hortensja</title>
     <meta name="description"
-        content="Aktywno&#347;ci w okolicach Nowych Gut: kajaki, rowery, &#380;eglarstwo i nie tylko." />
+        content="Odkryj uroki Nowych Gut: żeglarstwo, windsurfing nad Śniardwami, trasy rowerowe i spacery po mazurskich lasach. Zaplanuj swój urlop." />
     <meta property="og:url" content="https://apart-hortensja.pl/aktywnosci.html" />
-    <meta property="og:title" content="Aktywno&#347;ci – Apartamenty Hortensja" />
+    <meta property="og:title" content="Atrakcje Nowe Guty – Aktywny wypoczynek na Mazurach" />
     <meta property="og:description"
-        content="Kajaki, rowery, &#380;eglarstwo &#x2014; aktywny wypoczynek nad mazurskim jeziorem." />
+        content="Żeglarstwo, rowery, kajaki i spacery – sprawdź co robić w Nowych Gutach i okolicach Jeziora Śniardwy." />
     <meta property="og:type" content="website" />
     <link rel="canonical" href="https://apart-hortensja.pl/aktywnosci.html">
     <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" href="images/hortensja_logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/tilda-grid-3.0.min.css" type="text/css" media="all"
         onerror="this.loaderr='y';" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Atrakcje Nowe Guty – Aktywny wypoczynek na Mazurach" />
+    <meta name="twitter:description"
+        content="Żeglarstwo, rowery, kajaki i wiele więcej. Sprawdź co robić w Nowych Gutach." />
+    <meta name="twitter:image" content="https://apart-hortensja.pl/images/Main_image.png" />
     <link rel="stylesheet" href="./css/tilda-blocks-page61595659.min.css?t=1737238781" type="text/css" media="all"
         onerror="this.loaderr='y';" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -311,11 +316,13 @@
         </div>
         <!-- ===== /NAV ===== -->
 
-        <!-- ===== PAGE CONTENT ===== -->
+        <!-- ===== HERO ===== -->
         <div class="page-hero">
-            <h1>Aktywno&#347;ci</h1>
+            <h1
+                style="font-size: clamp(2.4rem, 6vw, 5rem); font-weight: 700; letter-spacing: .05em; margin: 0; color: #1a1a1a;">
+                Atrakcje i Aktywny Wypoczynek</h1>
         </div>
-
+        <!-- ===== /HERO ===== -->
         <div class="page-content">
             <h2>Aktywny wypoczynek nad jeziorem</h2>
             <p>W Nowych Gutach i okolicach czeka na Ciebie mn&#243;stwo atrakcji &#x2014; niezale&#380;nie od tego, czy
@@ -459,6 +466,26 @@
         <!-- ===== /FOOTER ===== -->
 
     </div>
+    <div id="scroll-to-top"
+        style="position:fixed; bottom:30px; right:30px; width:50px; height:50px; background:#c471ed; color:#fff; border-radius:50%; display:none; align-items:center; justify-content:center; cursor:pointer; z-index:9999; box-shadow:0 4px 15px rgba(0,0,0,0.2); transition: all 0.3s ease;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </div>
+    <script>
+        window.addEventListener('scroll', function () {
+            var btn = document.getElementById('scroll-to-top');
+            if (window.pageYOffset > 300) {
+                btn.style.display = 'flex';
+            } else {
+                btn.style.display = 'none';
+            }
+        });
+        document.getElementById('scroll-to-top').addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
 </body>
 
 </html>
