@@ -177,7 +177,7 @@
                     top: 65px;
                     left: 0;
                     right: 0;
-                    background: rgba(0, 0, 0, 0.85);
+                    background: rgba(0, 0, 0, 0.7);
                     backdrop-filter: blur(10px);
                     -webkit-backdrop-filter: blur(10px);
                     z-index: 9998;
@@ -187,20 +187,24 @@
 
                 #nav-dropdown-menu a {
                     display: block;
-                    text-align: center;
-                    padding: 14px 20px;
-                    color: #fff;
+                    text-align: left;
+                    padding: 18px 40px;
+                    color: #ffffff !important;
                     text-decoration: none;
                     font-family: 'Playfair Display', serif;
-                    font-size: 15px;
+                    font-size: 18px;
                     letter-spacing: 1px;
-                    text-transform: uppercase;
-                    opacity: 0.85;
-                    transition: opacity 0.2s;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+                    transition: background 0.2s, color 0.2s;
+                }
+
+                #nav-dropdown-menu a:last-child {
+                    border-bottom: none;
                 }
 
                 #nav-dropdown-menu a:hover {
-                    opacity: 1;
+                    background: rgba(255, 255, 255, 0.1);
+                    color: #ffce00;
                 }
 
                 #nav-dropdown-btn {
@@ -282,6 +286,16 @@
                     #nav-dropdown-btn-wrap {
                         display: none !important;
                     }
+                }
+
+                #rec853002449 .t228__right_descr {
+                    font-size: 24px;
+                    color: #ffffff;
+                }
+
+                #rec853002449 a.t-menu__link-item {
+                    color: #ffffff;
+                    font-weight: 500;
                 }
             </style>
             <script>

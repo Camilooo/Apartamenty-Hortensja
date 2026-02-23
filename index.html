@@ -139,7 +139,7 @@
                     top: 65px;
                     left: 0;
                     right: 0;
-                    background: rgba(0, 0, 0, 0.85);
+                    background: rgba(0, 0, 0, 0.7);
                     backdrop-filter: blur(10px);
                     -webkit-backdrop-filter: blur(10px);
                     z-index: 9998;
@@ -149,20 +149,24 @@
 
                 #nav-dropdown-menu a {
                     display: block;
-                    text-align: center;
-                    padding: 14px 20px;
-                    color: #ffffff;
+                    text-align: left;
+                    padding: 18px 40px;
+                    color: #ffffff !important;
                     text-decoration: none;
                     font-family: 'Playfair Display', serif;
-                    font-size: 15px;
+                    font-size: 18px;
                     letter-spacing: 1px;
-                    text-transform: uppercase;
-                    opacity: 0.85;
-                    transition: opacity 0.2s;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+                    transition: background 0.2s, color 0.2s;
+                }
+
+                #nav-dropdown-menu a:last-child {
+                    border-bottom: none;
                 }
 
                 #nav-dropdown-menu a:hover {
-                    opacity: 1;
+                    background: rgba(255, 255, 255, 0.1);
+                    color: #ffce00;
                 }
 
                 /* hamburger button */
@@ -395,7 +399,7 @@
         </div>
         <div id="rec853002451" class="r t-rec" style=" " data-record-type="215"> <a name="about"
                 style="font-size:0;"></a> </div>
-        <div id="rec853002452" class="r t-rec t-rec_pt_75 t-rec_pb_180" style="padding-top:75px;padding-bottom:180px; "
+        <div id="rec853002452" class="r t-rec t-rec_pt_75 t-rec_pb_90" style="padding-top:75px;padding-bottom:90px; "
             data-animationappear="off" data-record-type="677"> <!-- T677 -->
             <div class="t677">
                 <div class="t-container t-container_flex">
@@ -460,7 +464,7 @@
                 }
             </style>
         </div>
-        <div id="rec853002455" class="r t-rec t-rec_pt_75 t-rec_pb_180" style="padding-top:75px;padding-bottom:180px; "
+        <div id="rec853002455" class="r t-rec t-rec_pt_45 t-rec_pb_180" style="padding-top:45px;padding-bottom:180px; "
             data-animationappear="off" data-record-type="677"> <!-- T677 mirrored -->
             <div class="t677">
                 <div class="t-container t-container_flex">
@@ -481,7 +485,7 @@
                         </div>
                     </div>
                     <!-- Images on the right -->
-                    <div class="t677__col t-col t-col_6 t-prefix_1">
+                    <div class="t677__col t-col t-col_6">
                         <div class="t677__row t677__row_3-images">
                             <div class="t677__tile t677__tile_left" itemscope itemtype="http://schema.org/ImageObject">
                                 <meta itemprop="image" content="images/apartamenty_hero_1.jpg">
@@ -511,8 +515,8 @@
                         </div>
                         <!-- Mobile fallback image -->
                         <div class="t677__bgimg t677__bgimg_3_mobile t-bgimg"
-                            data-original="images/apartamenty_hero_1.jpg"
-                            style="background-image:url('images/apartamenty_hero_1.jpg'); background-position: left;">
+                            data-original="images/apartamenty_hero_3.jpg"
+                            style="background-image:url('images/apartamenty_hero_3.jpg'); background-position: left;">
                         </div>
                     </div>
                 </div>
