@@ -12,4 +12,9 @@
 		<loc>https://apart-hortensja.pl/aktywnosci.html</loc>
 		<lastmod>2026-02-23T23:00:00+00:00</lastmod>
 	</url>
+  <url>
+    <loc>https://apart-hortensja.pl/faq.html</loc>
+    <lastmod>2026-02-24</lastmod>
+    <priority>0.70</priority>
+  </url>
 </urlset>
